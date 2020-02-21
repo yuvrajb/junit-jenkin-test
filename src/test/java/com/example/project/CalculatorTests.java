@@ -50,6 +50,6 @@ class CalculatorTests {
 	@Test
 	void negativeTestCase() {
 		Calculator calculator = new Calculator();
-		assertNotEquals(-9, calculator.add(-5,-4), " should not be equal");
+		assertNotEquals(-9, calculator.add(-5,-5), " should not be equal");
 	}
 }
